@@ -1,0 +1,18 @@
+/*
+
+Find Second largest element in an array
+1.9
+Given an array of integers, our task is to write a program that efficiently finds the second largest element present in the array.
+
+Example:
+
+Input : arr[] = {12, 35, 1, 10, 34, 1}
+Output : The second largest element is 34.
+
+Input : arr[] = {10, 5, 10}
+Output : The second largest element is 5.
+
+Input : arr[] = {10, 10, 10}
+Output : The second largest does not exist.
+
+*/

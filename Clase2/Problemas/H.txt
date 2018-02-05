@@ -1,0 +1,18 @@
+/*
+Merging two unsorted arrays in sorted order
+1.4
+Write a SortedMerge() function that takes two lists, each of which is unsorted, and merges the two together into one new list which is in sorted (increasing) order. SortedMerge() should return the new list.
+
+Examples:
+
+Input : a[] = {10, 5, 15}
+        b[] = {20, 3, 2}
+Output : Merge List :
+        {2, 3, 5, 10, 15, 20}
+
+Input : a[] = {1, 10, 5, 15}
+        b[] = {20, 0, 2}
+Output : Merge List :
+        {0, 1, 2, 5, 10, 15, 20}
+*/
+

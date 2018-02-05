@@ -1,0 +1,27 @@
+
+/*
+Count of smaller or equal elements in sorted array
+1.5
+Given an sorted array of size n. Find number of elements which are less than or equal to given element.
+
+Examples:
+
+Input : arr[] = {1, 2, 4, 5, 8, 10}
+        key = 9
+Output : 5
+Elements less than or equal to 9 are 1, 2, 
+4, 5, 8 therefore result will be 5.
+
+Input : arr[] = {1, 2, 2, 2, 5, 7, 9}
+        key = 2
+Output : 4
+Elements less than or equal to 2 are 1, 2, 
+2, 2 therefore result will be 4.
+
+
+Tip:
+El algoritmo de la busqueda binaria aparece varias veces,
+modificado. parte importante de muchos problemas sobre arreglos
+ordenados.
+
+*/

@@ -1,0 +1,30 @@
+/*
+Split an array into two equal Sum subarrays
+1.9
+Given an array of integers greater than zero, find if it is possible to split it in two subarrays (without reordering the elements), such that the sum of the two subarrays is the same. Print the two subarrays.
+
+Examples:
+
+Input : Arr[] = { 1 , 2 , 3 , 4 , 5 , 5  }
+Output :  { 1, 2, 3, 4 } 
+          { 5 , 5 }
+
+Input : Arr[] = { 1 , 2 ,3 , 4 }
+Output :Not Possible 
+
+
+OTRA SOLUCION:
+Calcular la suma de todo los elementos del arreglo.
+recorrer nuevamente manteniendo la suma del lado derecho
+e ir restando hasta que la diferencia y la suma por la derecha
+sean iguales.
+
+
+OTRA SOLUCION:
+Sumar el primer elemento de la izquierda y todos los restantes de la derecha,
+si no son iguales
+entonces sumar los dos primeros de la izquierda y todos los
+restantes de la derecha
+y asi sucesivamente.
+
+*/
