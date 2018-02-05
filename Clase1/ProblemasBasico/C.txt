@@ -1,0 +1,28 @@
+Count number of elements between two given elements in array
+1.5
+Given an unsorted array of n elements and also given two points num1 and num2. 
+The task is to count number of elements occurs between the given points 
+(excluding num1 and num2).
+
+If there are multiple occurrences of num1 and num2, 
+we need to consider leftmost occurrence of num1 and rightmost occurrence of num2.
+
+Examples:
+
+Input : arr[] = {3 5 7 6 4 9 12 4 8}
+        num1 = 5
+        num2 = 4
+Output : 5
+Number of elements between leftmost occurrence
+of 5 and rightmost occurrence of 4 is five.
+
+Input : arr[] = {4, 6, 8, 3, 6, 2, 8, 9, 4}
+        num1 = 4
+        num2 = 4
+Output : 7
+
+Input : arr[] = {4, 6, 8, 3, 6, 2, 8, 9, 4}
+        num1 = 4
+        num2 = 10
+Output : 0
+

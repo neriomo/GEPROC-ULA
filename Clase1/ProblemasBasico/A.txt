@@ -1,0 +1,23 @@
+Program to print Sum of even and odd elements in an array
+1.7
+Prerequisite – Array Basics
+Given an array, write a program to find the sum of values of even and odd index positions separately.
+
+Examples:
+
+Input : arr = {1, 2, 3, 4, 5, 6}
+Output :Even index positions sum 9
+        Odd index positions sum 12
+Explanation: Here, n = 6 so there will be 3 even 
+index positions and 3 odd index positions in an array
+Even = 1 + 3 + 5 = 9
+Odd =  2 + 4 + 6 = 12
+
+Input : arr = {10, 20, 30, 40, 50, 60, 70}
+Output : Even index positions sum 160
+        Odd index positions sum 170
+Explanation: Here, n = 7 so there will be 3 even 
+index positions and 4 odd index positions in an array
+Even = 20 + 40 + 60 = 120
+Odd =  10 + 30 + 50 + 70 = 160
+
