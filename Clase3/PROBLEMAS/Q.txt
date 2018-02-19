@@ -1,0 +1,37 @@
+/*
+Find if given matrix is Toeplitz or not
+1.8
+Given a square matrix, find if it’s a Toeplitz matrix or not. A Toeplitz (or diagonal-constant) matrix is a matrix in which each descending diagonal from left to right is constant, i.e., all elements in a diagonal are same.
+
+In general, any n×n matrix mat[][] is a Toeplitz matrix if every cell mat[i][j] is same as mat[i-1][j-1], mat[i+1][j+1], mat[i-2][j-2], mat[i+2][j+2], .. for every cell mat[i][j] and all the valid cells mat[i+k][j+k] or mat[i-k][j-k]
+
+Examples :
+
+Input: mat[N][N] = {{ 6, 7, 8},
+                    { 4, 6, 7},
+                    { 1, 4, 6}},
+Output : True;
+Values in all diagonals are same.
+
+Input: mat[N][N] = {{ 6, 7, 8, 9 },
+                    { 4, 6, 7, 8 },
+                    { 1, 4, 6, 7 },
+                    { 0, 1, 4, 6 }};
+Output : True;
+
+Input: mat[N][N] = {{ 6, 3, 8},
+                    { 4, 9, 7},
+                    { 1, 4, 6}},
+Output : False
+
+Este ejercicio esta buenisimo.
+
+Se puede introducir con un problema que en el cual
+se resuelva identificar si un array tiene todos sus 
+elementos iguales.
+
+Problemas que involucren las diagonales.
+Problemas que involucren diagonales de derecha a izquierda
+y de izquierda a derecha.
+
+*/

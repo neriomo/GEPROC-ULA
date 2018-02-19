@@ -1,0 +1,19 @@
+/*
+Sort a Matrix in all way increasing order
+1.2
+Given a square matrix of order N*N having distinct elements, the task is to sort given matrix in such a way that its rows, columns and both diagonals (diagonal and anti-diagonal) are in increasing order.
+
+Examples:
+
+Input : arr[3][3] = {1, 4, 2,
+                     3, 5, 6,
+                     9, 7, 8}
+Output :{1, 2, 3,
+         4, 5, 6,
+         7, 8, 9}
+
+Input : arr[2][2] = {0, 4,
+                     5, 2}                    
+Output :{0, 2,
+         4, 5}
+*/

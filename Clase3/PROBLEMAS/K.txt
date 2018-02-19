@@ -1,0 +1,18 @@
+/*
+C Program To Check whether Matrix is Skew Symmetric or not
+1
+A Skew Symmetric Matrix or Anti-Symmetric Matrix is a square matrix whose transpose is negative to that of the original matrix. If the entry in the ith row and jth column of a matrix is a[i][j], i.e. if A = (a[i][j]) then the skew symmetric condition is -A = -a[j][i].
+
+Example:
+
+Input : matrix:     0   5  -4          
+                   -5   0   1                            
+                    4  -1   0                            
+
+Output:  
+Transpose matrix:   0  -5   4
+                    5   0   1
+                   -4   1   0
+Skew Symmetric matrix
+
+*/

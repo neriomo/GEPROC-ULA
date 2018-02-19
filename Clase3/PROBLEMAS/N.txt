@@ -1,0 +1,34 @@
+/*
+Maximum determinant of a matrix with every values either 0 or n
+1
+We have given a positive number n, and we have to find a 3*3 matrix which can be formed with combination of 0 or n and has maximum determinant.
+
+Examples:
+
+Input : n = 3 
+Output : Maximum determinant = 54
+Resultant Matrix :
+3 3 0
+0 3 3
+3 0 3
+
+Input : n = 13 
+Output : Maximum determinant = 4394
+Resultant Matrix :
+13 13  0
+0  13 13
+13  0 13
+
+a b c
+d e f
+g h i
+		
+El determinante seria: a*e*i + d*h*c + g*f*b -(c*e*g + f*h*a + i*d*b)
+para maximizar la parte de la resta debe ser minima (cero).
+a 0 c    a b 0
+d e 0  o 0 e f
+0 h i    g 0 i
+ 
+Entonces a*e*i + d*h*c siendo a=e=i=d=h=c = N 
+El determinante sera: 2*(N*N*N)
+*/
